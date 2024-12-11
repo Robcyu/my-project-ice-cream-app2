@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ebb1be;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+
+.ice-cream-app {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+}
+
+h1 {
+  color: #f15ba6;
+  margin-bottom: 20px;
+}
+
+.ice-cream-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.flavor-of-the-day {
+  color: #021d25;
+  margin: 20px 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ff69b4;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #dad8e2;
+  color: #773109ad;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0b8b3c;
+}
+
+.orders-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.orders-list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(151, 45, 45, 0.1);
+}
